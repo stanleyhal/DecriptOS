@@ -1,89 +1,94 @@
 # DecriptOS
 
-Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy, la tua sicurezza informatica e il mondo delle crypto. Con DecriptOS, avrai accesso a una distro Linux leggera, veloce e potente che ti permetterà di sfruttare appieno le potenzialità delle tecnologie emergenti.
+Welcome to DecriptOS, the Operating System that puts your privacy, cybersecurity, and the world of crypto at the center of your interests. With DecriptOS, you will have access to a lightweight, fast and powerful Linux distro that will allow you to take full advantage of the potential of emerging technologies.
 
-La nostra priorità è la tua privacy. Con DecriptOS, puoi navigare in modo sicuro utilizzando TOR preconfigurato e sfruttando il nostro mac spoofing all'avvio per creare un nuovo computer virtuale ad ogni avvio. Inoltre, abbiamo incluso Brave e Firefox come browser, già configurati per garantire sicurezza, privacy e semplificare la gestione delle crypto.
+Our priority is your privacy. With DecriptOS, you can browse securely using pre-configured TOR and taking advantage of our mac spoofing service that runs automatically at startup to create a new virtual computer each time you boot up. In addition, we have included Brave and Firefox as browsers, already configured to provide security, privacy and simplify crypto management.
 
-Parlando di crypto, DecriptOS è il tuo alleato. Abbiamo incluso tutti i tool di cui hai bisogno: wallet crypto come Wasabi, Electrum, Feather e altri, estensioni per il browser, gestore dei pacchetti Linux per cercare nuovi strumenti e il tutto reso pubblico e trasparente, tramite GitHub per lo sviluppo open source.
+Speaking of crypto, DecriptOS is your ally. We have included all the tools you need:
+- crypto wallets such as Wasabi, Electrum, Feather and others;
+- browser extensions;
+- Linux package manager to search for new tools
+all made public and transparent, via GitHub, to encourage open source development.
 
-Per la sicurezza informatica, DecriptOS è in prima linea. Abbiamo configurato Firefox con preferiti preimpostati per evitare siti di phishing e inclusi tool dedicati alla due diligence dei progetti crypto, tra cui alcuni creati dal nostro team. Inoltre, KeepassXC è incluso come password manager per garantire la massima sicurezza per le tue credenziali.
+For information protection and security, DecriptOS is at the forefront. We have configured Firefox with preset bookmarks to avoid phishing sites and included dedicated tools for due diligence of crypto projects, including some created by our team. In addition, KeepassXC is included as a password manager to ensure maximum security for your credentials.
 
-E non dimentichiamo la produttività! Abbiamo integrato LibreOffice per le tue esigenze di produttività, tool per la registrazione video come OBS e SimpleScreenRecorder, e persino un editor video come Flowblade. Inoltre, abbiamo incluso Obsidian per semplificare la gestione delle note e della raccolta dati nella due diligence.
+And let's not forget productivity! We have integrated LibreOffice for your productivity needs, video recording tools such as OBS and SimpleScreenRecorder, and even a video editor such as Flowblade. In addition, we have included Obsidian to simplify the management of notes and data collection in due diligence.
 
-DecriptOS è pensato per essere facile da usare e adattabile alle tue esigenze. Puoi eseguirlo direttamente da una chiavetta USB, senza rischi per i file del tuo sistema operativo principale. Inoltre, abbiamo incluso shortcut di sistema per creare template per il lavoro e comandi personalizzati, per semplificare le tue attività quotidiane.
+DecriptOS is designed to be easy to use and adaptable to your needs. You can run it directly from a USB stick, without risk to your main operating system files. In addition, we have included system shortcuts to create templates for work and custom commands to simplify your daily tasks.
 
-E la cosa migliore di DecriptOS? È completamente personalizzabile! Possiamo creare build dedicate e personalizzate per te, per soddisfare al meglio le tue esigenze specifiche.
+The best thing about DecriptOS? It is completely customizable! We can create dedicated, customized builds for you to best meet your specific needs.
 
-Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a DecriptOS e vivi l'esperienza di un sistema operativo dedicato alla privacy, alle crypto e alla sicurezza informatica come mai prima d'ora. Scopri DecriptOS, il tuo nuovo alleato nel web3.
+Don't risk your privacy and crypto security. Switch to DecriptOS and experience an operating system dedicated to privacy, crypto, and cybersecurity like never before.
 
-## Funzionalità
+Discover DecriptOS, your new partner in web3.
 
-- **Strumenti specializzati**: DecriptOS include una vasta gamma di strumenti preinstallati specifici per le indagini sulle criptovalute e sul Web3. Sono inclusi analizzatori blockchain, client Ethereum, scanner di contratti intelligenti e molto altro.
+## Features
 
-- **Ambiente sicuro**: La distribuzione è stata configurata per garantire un ambiente sicuro e isolato e attento alla privacy.
+- **Specialized Tools**: DecriptOS includes a wide range of preinstalled tools specifically for cryptocurrency and Web3 investigations. You'll find: blockchain explorers and analyzers, Ethereum clients, smart contract scanners and more.
 
-- **Aggiornamenti frequenti**: DecriptOS viene costantemente mantenuta e aggiornata dal team di sviluppo di Decripto.org. Gli utenti riceveranno regolarmente aggiornamenti di sicurezza e nuove funzionalità per rimanere al passo con gli sviluppi nel settore delle criptovalute e del Web3.
+- **Safe environment**: The distro has been configured to provide a secure, isolated and privacy-aware environment.
 
-## Requisiti di sistema
+- **Frequent updates**: DecriptOS is constantly maintained and updated by the Decripto.org development team. Users will receive regular security updates and new features to stay up-to-date with developments in cryptocurrency and Web3.
 
-Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddisfare i seguenti requisiti minimi:
+## System Requirements
 
-- Processore: 1 GHz o superiore
-- RAM: 2 GB o superiore
-- Spazio su disco: 20 GB o superiore (nel caso di virtual machine)
-- Capienza USB (se si vuole usare tramite reboot): 8 GB o superiore
-- Connessione Internet per gli aggiornamenti e il download delle risorse aggiuntive
+To use DecriptOS, your system, or your Virtual Machine, must meet the following minimum requirements:
 
-## Avvio o installazione
+- CPU: 1 GHz or higher
+- RAM: 2 GB or more
+- Disk space: 20 GB or more (in case of Virtual Machines)
+- USB capacity (if you want to use via reboot): 8 GB or more
+- Internet connection for updates and downloads of additional resources
 
-Per avviare o installare DecriptOS, segui i seguenti passaggi:
+## Startup or Install
 
-1. Scarica l'immagine ISO di DecriptOS (versione 2.7) da [questo link](https://e.pcloud.link/publink/show?code=XZPd2WZHBn0zbo03vJ02sJ679vDs4SOVRwX)
-2. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
+To start or install DecriptOS, follow the steps below:
 
-   2.1 Flashing del file .iso su USB per usalo tramite reboot:
+1. Download the ISO image of DecriptOS (version 2.7) from [this link](https://e.pcloud.link/publink/show?code=XZPd2WZHBn0zbo03vJ02sJ679vDs4SOVRwX)
+2. Create a bootable installation device (e.g., a USB stick or Virtual Machine) using the ISO image
 
-    - Una chiavetta USB da almeno 8Gb
+   2.1 Flashing the .iso file to USB for use via reboot:
+
+    - A USB flash drive (with a minimum capacity of 8Gb)
     
-    - [Rufus](https://rufus.ie/it/) se si fa da Windows
+    - Download this software [Rufus](https://rufus.ie/it/) (in case you are running this procedure on Windows)
 
-    oppure [Unebootin](https://unetbootin.github.io/) se si fa da Mac OS:
+    or download [Unebootin](https://unetbootin.github.io/) (if you are on Mac Os):
 
-    - una volta scaricato premere il tasto destro e cliccare su "Apri" (potrebbe essere necessario farlo un paio di volte)
+    - once downloaded press the right button and click on "Open" (you may need to do this a couple of times)
 
-    - poi selezionare il file .iso e la chiavetta USB
+    - then select the .iso file and the USB device
 
-    - e avviare l'operazione.
+    - and start the process.
 
-4. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione, tenendo premuto `Alt` (da Mac) o `esc` o `F12` (da Windows).
+3. Boot your computer (or Virtual Machine) using the installation media, holding down `Alt` (if on Mac OS) or `esc` or `F12` (if on Windows).
 
-   - da Mac selezionare il supporto `EFI Boot`:
+   - from Mac select `EFI Boot`:
 
-   - da Windows selezionare il supporto `USB - UEFI OS`:
+   - from Windows select `USB - UEFI OS`:
 
-   3.1. Se avvii il computer tramite BIOS con `F2` vai nella tab `Save & Exit` e seleziona la chiavetta USB con `UEFI`
+   3.1. If you boot the computer via BIOS with `F2` go to the tab `Save & Exit` and select the USB flash drive named `UEFI`
 
-6. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
+4. From the boot menu choose "Live system" to try the distro (recommended) or "Start installer" to start the installation on the computer following the instructions.
 
-   5.1. Se decidi di installare il sistema operativo (tipo su un vecchio computer), come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
+   4.1. If you decide to install the operating system (like on an old computer), please set `decripto` as username, otherwise some tools may not work properly.
+   
+## Steps to do after system startup (live)
 
-## Cose da fare all'avvio (live)
-
-1. Cambiare il layout della tastiera, andando sotto Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian
-2. Impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
-3. Collegarsi al WiFi (se da USB)
-4. Controllare data e ora, se necessario, sincronizzare il sistema operativo con il fuso orario attuale.
-5. Aggiornare il sistema operativo, nel terminale digita `sudo apt update`, premi invio, inserisci la password (`decripto` di default) premi invio, una volta finito digita `sudo apt upgrade` e premi invio, se necessario quando richiesto digita `yes` per i pacchetti aggiuntivi.
-6. Configurare le proprie credenziali su git andando nel terminale e digitando `git config --global user.name "Tuo Nome"` e poi `git config --global user.email latua@email.com`.
+1. Set a password for the keyring from the terminal with `sudo passwd` and then enter it (if desired). The other default passwords are `decripto`.
+2. Connect to WiFi (if from USB)
+3. Check the date and time, if necessary, synchronize the operating system with the current time zone.
+4. Update the operating system, in the terminal type `sudo apt update`, hit enter, enter the password (`decripto` by default) hit enter, when finished type `sudo apt upgrade` and hit enter, if needed when prompted type `yes` for additional packages.
+5. Configure your credentials on git by going to the terminal and typing `git config --global user.name "Your Name"` then `git config --global user.email your@email.com`.
  
 
 ## Disclaimer
 
-DecriptOS è fornita "così com'è" e senza alcuna garanzia, esplicita o implicita, inclusa, ma non limitata a, garanzie di commerciabilità, idoneità per uno scopo particolare e non violazione. In nessun caso gli sviluppatori di DecriptOS saranno responsabili per qualsiasi richiesta, danni o altre responsabilità, sia in azione di contratto, negligenza o altro, derivanti da, o in connessione con la distribuzione o l'uso di DecriptOS o altri affari inerenti a DecriptOS.
+DecriptOS is provided "as is" and without warranty of any kind, express or implied, including, but not limited to, warranties of saleability, suitability for a particular purpose, and non-infringement. In no event shall the developers of DecriptOS be liable for any claims, damages, or other liabilities, whether in action of contract, negligence, or otherwise, arising out of, or in connection with, the distribution or use of DecriptOS or other DecriptOS-related business.
 
 ---
 
-**Nota:** Essendo ancora in fase di test, se riscontri anomalie o noti che manca qualcosa o vorresti aggiungere qualcosa di default, clicca in alto nella tab `Issues` e crea una nuova issue (un memo) spiegando cosa hai trovato o cosa sistemare.
+**Note:** Since it is still in the testing phase, if you find anomalies or notice that something is missing or would like to add something by default, click at the top of the `Issues` tab and create a new issue (a memo) explaining what you found or what to fix.
 
-**Licenza:** Nel file [LICENSE](https://github.com/Decripto-org/DecriptOS/blob/main/LICENSE) potrai trovare tutti i dettagli sulla licenza di utilizzo.
+**License:** In the [LICENSE](https://github.com/Decripto-org/DecriptOS/blob/main/LICENSE) file you will find all the details about the license of use.
 

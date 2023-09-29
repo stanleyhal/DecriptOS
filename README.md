@@ -52,31 +52,31 @@ To start or install DecriptOS, follow the steps below:
     - A USB flash drive (with a minimum capacity of 8Gb)
     
     - Download this software [Rufus](https://rufus.ie/it/) (in case you are running this procedure on Windows)
+   
+      or download [UNetbootin](https://unetbootin.github.io/) (if you are using macOS)
 
-    or download [Unebootin](https://unetbootin.github.io/) (if you are on Mac Os):
-
-    - once downloaded press the right button and click on "Open" (you may need to do this a couple of times)
+    - once downloaded, press the right button and click on "Open" (you may need to do this a couple of times)
 
     - then select the .iso file and the USB device
 
-    - and start the process.
+    - start the process
 
-3. Boot your computer (or Virtual Machine) using the installation media, holding down `Alt` (if on Mac OS) or `esc` or `F12` (if on Windows).
+3. Boot your computer (or Virtual Machine) using the installation media, holding down `Alt` (on macOS) or `esc` or `F12` (on Windows).
 
-   - from Mac select `EFI Boot`:
+   - from Mac select `EFI Boot`
 
-   - from Windows select `USB - UEFI OS`:
+   - from Windows select `USB - UEFI OS`
 
    3.1. If you boot the computer via BIOS with `F2` go to the tab `Save & Exit` and select the USB flash drive named `UEFI`
 
-4. From the boot menu choose "Live system" to try the distro (recommended) or "Start installer" to start the installation on the computer following the instructions.
+4. From the boot menu choose "Live System" to try DecriptOS (recommended) or "Start installer" to start the installation on the computer following the instructions.
 
    4.1. If you decide to install the operating system (like on an old computer), please set `decripto` as username, otherwise some tools may not work properly.
    
-## Steps to do after system startup (live)
+## Steps to take after system startup (live)
 
 1. Set a password for the keyring from the terminal with `sudo passwd` and then enter it (if desired). The other default passwords are `decripto`.
-2. Connect to WiFi (if from USB)
+2. Connect to Wi-Fi (if from USB)
 3. Check the date and time, if necessary, synchronize the operating system with the current time zone.
 4. Update the operating system, in the terminal type `sudo apt update`, hit enter, enter the password (`decripto` by default) hit enter, when finished type `sudo apt upgrade` and hit enter, if needed when prompted type `yes` for additional packages.
 5. Configure your credentials on git by going to the terminal and typing `git config --global user.name "Your Name"` then `git config --global user.email your@email.com`.

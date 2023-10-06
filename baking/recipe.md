@@ -1,4 +1,4 @@
-## Ecco come abbiamo realizzato DecriptOS!
+## How we made DecriptOS!
 
 First thing, in a "Debian Bullseye"-based VM, we created the DecriptOS working environment, configuring all the tools, menus, graphics, features, and downloading the installation files we want to be in the distro.
 Then we installed the pre-requisites to start the iso creation phase.

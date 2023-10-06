@@ -137,14 +137,14 @@ Example:
 sudo passwd
 ```
 
-**13. `ip addr` - show IP address specifications**
+**14. `ip addr` - show IP address specifications**
 
 Example:
 ```
 ip addr
 ```
 
-**14. `ssh-keygen` - SSH key generation**
+**15. `ssh-keygen` - SSH key generation**
 
 Example:
 ```
@@ -164,7 +164,7 @@ To connect GitHub via ssh:
 
 - open github and go under settings, SSH, new, paste and give a name
 
-**15. `man` - for the manual page of a command**
+**16. `man` - for the manual page of a command**
 
 Example:
 ```

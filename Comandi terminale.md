@@ -1,316 +1,314 @@
 
-# Comandi del Terminale per Decripto OS
+# Terminal Commands for DecriptOS
 
-Il terminale è un'interfaccia testuale attraverso la quale è possibile interagire con il sistema operativo Linux. I seguenti comandi sono fondamentali per iniziare a lavorare con il terminale.
+The Terminal (or CLI=Command Line Interface) is a textual interface through which you can interact with the Linux Operating System. The following commands are fundamental to getting started with the terminal.
+## Generic commands
 
-## Comandi generali
+**1. `ls` - List of files and/or folders**
 
-**1. `ls` - Elenco dei file e delle cartelle**
+This command lists all the files and folders in the current directory.
 
-Questo comando elenca i file e le cartelle presenti nella directory corrente.
-
-Esempio:
+Example:
 ```
 ls
 ```
 
-puoi anche usarlo per avere l'anteprima di determinate cartelle o file partendo dal nome intero o parziale:
-
+you can also use it to preview certain folders or files starting with the full or partial name:
 ```
-ls nome_cartella 
-ls nome*
-ls *cartella
-ls *tella*
-```
-
-**2. `cd` - Cambio directory**
-
-Questo comando consente di spostarsi tra le cartelle. Puoi specificare una directory assoluta o relativa.
-
-Esempi:
-```
-cd /percorso/assoluto
-cd cartella_di_destinazione
-cd .. (per tornare alla cartella padre)
-cd ~ (per tornare alla tua directory home, oppure anche solo cd)
+ls folder_name 
+ls name*
+ls *folder
+ls *lder*
 ```
 
-**3. `mkdir` - Crea una nuova cartella**
+**2. `cd` - Change directory**
 
-Questo comando crea una nuova cartella nella directory corrente o in una specifica posizione.
+This command allows you to move between directories. You can specify an absolute or relative directory.
 
-Esempi:
+Examples:
 ```
-mkdir nuova_cartella
-mkdir /percorso/esistente/nuova_cartella
-```
-
-**4. `touch` - Crea un nuovo file**
-
-Questo comando crea un nuovo file vuoto nella directory corrente o in una specifica posizione.
-
-Esempi:
-```
-touch nuovo_file.txt
-touch /percorso/esistente/nuovo_file.txt
+cd /absolute/path
+cd destination_folder
+cd .. (to return to the parent folder)
+cd ~ (to return to your home directory, or even just cd)
 ```
 
-**5. `rm` - Rimuovi file e cartelle**
+**3. `mkdir` - Create a new folder**
 
-Questo comando rimuove file e cartelle. Utilizza con cautela poiché i file eliminati non vengono spostati nel cestino, ma vengono cancellati definitivamente.
+This command creates a new folder in the current directory or in a specific location.
 
-Esempi:
+Examples:
 ```
-rm file_da_rimuovere.txt
-rm -r cartella_da_rimuovere
-rm -d cartella_vuota_da_rimuoveree
-```
-
-**6. `cp` - Copia file e cartelle**
-
-Questo comando copia file e cartelle da una posizione all'altra.
-
-Esempi:
-```
-cp file_da_copiare.txt /percorso/destinazione
-cp -r cartella_da_copiare /percorso/destinazione
+mkdir new_folder
+mkdir /existing/path/new_folder
 ```
 
-**7. `mv` - Sposta o rinomina file e cartelle**
+**4. `touch` - Create a new file**
 
-Questo comando sposta o rinomina file e cartelle.
+This command creates a new empty file in the current directory or in a specific location.
 
-Esempi:
+Examples:
 ```
-mv file_da_spostare.txt /percorso/destinazione
-mv vecchio_nome.txt nuovo_nome.txt
-```
-
-**8. `cat` - Mostra il contenuto di un file**
-
-Questo comando visualizza il contenuto di un file sul terminale.
-
-Esempio:
-```
-cat file_da_visualizzare.txt
+touch new_file.txt
+touch /existing/path/new_file.txt
 ```
 
-**9. `grep` - Cerca all'interno di file**
+**5. `rm` - Remove files and folders**
 
-Questo comando cerca una determinata stringa all'interno di uno o più file.
+This command removes files and folders. Use with caution as deleted files are not moved to the recycle bin, but are permanently deleted.
 
-Esempio:
+Examples:
 ```
-grep "parola_da_cercare" file_di_riferimento.txt
+rm file_to_remove.txt
+rm -r folder_to_remove
+rm -d empty_folder_to_remove
 ```
 
-**10. `sudo` - Esegui comandi come amministratore**
+**6. `cp` - Copy files and folders**
 
-Questo comando esegue il comando successivo con privilegi di amministratore (sudo = super user do). 
+This command copies files and folders from one location to another.
 
-Esempio:
+Examples:
+```
+cp files_to_copy.txt /path/destination
+cp -r folder_to_copy /path/destination
+```
+
+**7. `mv` - Move or rename files and folders**
+
+This command moves or renames files and folders.
+
+Examples:
+```
+mv file_to_move.txt /path/destination
+mv old_name.txt new_name.txt
+```
+
+**8. `cat` - Show the contents of a file**
+
+This command displays  the contents of a file on the terminal.
+
+Example:
+```
+cat file_to_displays.txt
+```
+
+**9. `grep` - Search within files**
+
+This command searches for a given string within one or more files.
+
+Example:
+```
+grep "word_to_search" file(s)_of_interest.txt
+```
+
+**10. `sudo` - Run commands as administrator**
+
+This command executes the next command with administrator privileges (sudo = super user do). 
+
+Examples:
 ```
 sudo apt update
 sudo apt upgrade
 ```
 
-**11. `open` - apre un file o una cartella**
+**11. `open` - opens a file or folder**
 
-Questo comando apre un file con il programma di default oppure una cartella.
+This command opens a file with the default program or a folder.
 
-Esempio:
+Examples:
 ```
-open cartella 
-open . (apre la cartella dove sei attualmente)
+open folder 
+open . (opens the current folder)
 open file.txt
 ```
 
-**12. `ip addr` - mostra le specifiche dell'indirizzo IP**
+**12. `ip addr` - show IP address specifications**
 
-Esempio:
+Example:
 ```
 ip addr
 ```
 
-**13. `passwd` - imposta la password del sistema**
+**13. `passwd` - sets the system password**
 
-Esempio:
+Example:
 ```
 sudo passwd
 ```
 
-**13. `ip addr` - mostra le specifiche dell'indirizzo IP**
+**13. `ip addr` - show IP address specifications**
 
-Esempio:
+Example:
 ```
 ip addr
 ```
 
-**14. `ssh-keygen` - generazione di una chiave SSH**
+**14. `ssh-keygen` - SSH key generation**
 
-Esempio:
+Example:
 ```
 ssh-keygen -t ed25519 -C james.moriarty@decripto.org
 ```
 
-Per collegare GitHub tramite ssh:
+To connect GitHub via ssh:
 
-- crea la chiave SSH
+- create SSH key
   `ssh-keygen -t ed25519 -C james.moriarty@decripto.org`
 
 [enter the file in which to save the key or skip to keep `/home/decripto/.ssh/id_ed25519`]
 
 [enter password or skip]
 
-- compiare la chiave SSH nel file .pub nella cartella `/home/decripto/.ssh/` (una cosa tipo: `ssh-ed25519 AAAAC3NzaCC1.....7kX0J`)
+- compile the SSH key in the .pub file in the `/home/decripto/.ssh/` (something like: `ssh-ed25519 AAAAC3NzaCC1.....7kX0J`)
 
-- aprire github e andare sotto settings, SSH, nuova, incolla e dai un nome
+- open github and go under settings, SSH, new, paste and give a name
 
-**15. `man` - pre il manuale di un comando**
+**15. `man` - for the manual page of a command**
 
-Esempio:
+Example:
 ```
-man ls (mostra il manuale del comando 'ls')
-man mkdir (mostra il manuale del comando 'mkdir')
+man ls (show the manual page for the command 'ls')
+man mkdir (show the manual page for the command 'mkdir')
 ```
 
-# Comandi di Decripto OS
+# DecriptOS commands
 
-Decripto OS ha diversi "shortcut" da terminale che ti permettono di velocizzare il lavoro, alcuni servono per avviare dei programmi, altri per creare templates.
+DecriptOS has several terminal "shortcuts" that allow you to speed up your work, some are for starting programs, others for creating templates.
 
-**1. `dinit` - Inizializza una cartella di lavoro locale**
+**1. `dinit` - Initialize a local workbook**
 
-Questo comando inizializza una cartella, creando i file bozza-articolo.md, materiale.md nella cartella "materiale" e report.md, nella cartella corrente. I file sono dei templates che aiuteranno a velocizzare la raccolta e l'organizzazione del materiale inerente un determinato progetto sotto analisi.
+This command initializes a folder, creating the files draft-article.md, material.md in the "material" folder, and report.md, in the current folder. The files are templates that will help speed up the collection and organization of material pertaining to a given project under analysis.
 
-Esempio:
+Example:
 ```
 dinit.sh
 ```
 
-**2. `Kraken` - Avvia il Kraken**
+**2. `Kraken` - Start the Kraken**
 
-Questo comando avvia il programma Kraken nel terminale, che assiste durante l'indagine automatizzando alcuni processi, come l'apertura delle tab e il salvataggio di alcuni dati.
+This command starts the Kraken program in the terminal, which assists during the investigation by automating some processes, such as opening tabs and saving some data.
 
-Esempio:
+Example:
 ```
-Kraken (avvio standard)
-Kraken -h (messaggio di aiuto)
+Kraken (standard boot)
+Kraken -h (help message)
 ```
 
-**3. `redshift` - controlla i colori dello schermo per proteggere gli occhi dalla luce blu**
+**3. `redshift` - Controls screen colors to protect eyes from blue light**
 
-Questo comando permette di controllare la tinta del monitor in modo fisso o in base all'ora.
+This command allows you to control the tone of the monitor in a fixed or time-based manner.
 
-Esempio:
+Example:
 ```
 redshift -h
-redshift -O 5500 (imposta la tonalità a 5500 K)
-redshift -x (resetta il colore oroginale del monitor)
+redshift -O 5500 (set tone at 5500 K)
+redshift -x (reset to the original color of the LCD)
 ```
 
-# Comandi Git per sincronizzare le cartelle con GitHub
+# Git commands to synchronize folders with GitHub
 
-Git è un sistema di controllo versione distribuito ampiamente utilizzato. Qui di seguito troverai alcuni comandi principali per sincronizzare le cartelle con GitHub utilizzando Git.
+Git is a widely used distributed version control system. Below you will find some main commands for synchronizing folders with GitHub using Git.
 
-**1. `git init` - Inizializza un repository Git locale**
+**1. `git init` - Initialize a local Git repository**
 
-Questo comando inizializza un nuovo repository Git locale nella directory corrente.
+This command initializes a new local Git repository in the current directory.
 
-Esempio:
+Example:
 ```
 git init
 ```
 
-Poi configura git con la branch main:
+Then configure git with the main branch:
 ```
 git config --global init.default branch main
 ```
 
-per creare o rinominare la branch principale in "main":
+to create or rename the main branch to "main":
 ```
 git branch -M main
 ```
 
-e configura le tue credenziali per i commit:
+and configure your credentials for commits
 ```
 git config --global user.name "James Moriarty"
 git config --global user.email james.moriarty@decripto.org
 ```
 
-**2. `git clone` - Clona un repository esistente**
+**2. `git clone` - Clone an existing repository**
 
-Questo comando clona un repository Git esistente da GitHub nella directory corrente.
+This command clones an existing Git repository from GitHub into the current directory.
 
-Esempio:
+Example:
 ```
 git clone https://github.com/utente/repository.git
 ```
 
-**3. `git status` - Controllare lo status della cartella e dei file**
+**3. `git status` - Check the status of the folder and files**
 
-Esempio:
+Example:
 ```
 git clone https://github.com/utente/repository.git
 ```
 
-**4. `git diff` - Mostra le differenze tra l'ultimo commit e il file attuale**
+**4. `git diff` - Show the differences between the last commit and the current file**
 
-Può anche essere usato per mostrare le differenze tra 2 branch con `..`
+It can also be used to show the differences between 2 branches with `..`
 
-Esempio:
+Example:
 ```
 git diff main..altra-branch
 ```
 
-**5. `git add` - Aggiunge file al repository**
+**5. `git add` - Adds files to the repository**
 
-Questo comando aggiunge uno o più file al repository Git.
+This command adds one or more files to the Git repository.
 
-Esempio:
+Example:
 ```
-git add file_da_aggiungere.txt
+git add file_to_add.txt
 ```
 
-oppure per aggiungerli tutti usare `add .`
+or to add them all use `add .`
 
-Esempio:
+Example:
 ```
 git add .
 ```
 
-**6. `git commit` - Effettua una commit delle modifiche**
+**6. `git commit` - Make a commit of the changes**
 
-Questo comando crea una nuova commit con le modifiche effettuate. Il parametro `-m` permette di inserire il commento di seguito.
+This command creates a new commit with the changes made. The `-m` parameter allows you to enter the comment below.
 
-Esempio:
+Example:
 ```
-git commit -m "Descrizione delle modifiche"
-```
-
-Nota bene: se non verrà aggiunto una descrizione al commit, verrà aperto vim da terminale per inserirlo. Vim è un dito in culo, quindi inserite sempre subito il messaggio.
-
-Per inserire la descrizione con vim:
-- premere il tasto i per inserire del testo
-- scrivere la descrizione 
-- premere Esc per uscire dalla modalità inserimento
-- premere `:wq` per scrivere e uscire 
-
-**7. `git push` - Sincronizza le modifiche remote**
-
-Questo comando invia le commit locali al repository remoto su GitHub.
-
-Esempio:
-```
-git push origin nome_branch
+git commit -m "Description of the changes"
 ```
 
-**8. `git pull` - Aggiorna il repository locale**
+Please note: if a description is not added to the commit, Vim will be opened from terminal to enter it. Vim is a pain in the ass, so always enter the message immediately.
 
-Questo comando aggiorna il repository locale con le modifiche dal repository remoto su GitHub.
+To enter the description with Vim:
+- press the i key to enter text
+- write the description
+- press Esc to exit the input mode
+- press `:wq` to write and exit 
 
-Esempio:
+**7. `git push` - Synchronize remote changes**
+
+This command sends local commits to the remote repository on GitHub.
+
+Example:
 ```
-git pull origin nome_branch
+git push origin branch_name
 ```
 
-Questi sono solo alcuni dei comandi più comuni utilizzati nel terminale per lavorare con Git. Sono disponibili molti altri comandi e opzioni che puoi esplorare ulteriormente [qui](https://training.github.com/downloads/it/github-git-cheat-sheet/). 
+**8. `git pull` - Update the local repository**
+
+This command updates the local repository with changes from the remote repository on GitHub.
+
+Example:
+```
+git pull origin branch_name
+```
+
+These are just some of the most common commands used in the terminal for working with Git. There are many other commands and options available that you can explore further [here](https://training.github.com/downloads/github-git-cheat-sheet/).
